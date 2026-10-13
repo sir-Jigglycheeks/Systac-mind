@@ -1,0 +1,6 @@
+{
+  "name": "Systac Mind Consultants",
+  "description": "Systac Mind Consultants - Comprehensive overseas education consultancy featuring verified university listings across the UK, USA, Canada, and Europe, country-specific visa guidance, and a secure student portal for real-time application tracking and encrypted document management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

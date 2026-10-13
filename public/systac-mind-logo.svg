@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="systacNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e233d" />
+      <stop offset="100%" stop-color="#19375b" />
+    </linearGradient>
+    <linearGradient id="systacGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#556b2f" />
+      <stop offset="100%" stop-color="#67803b" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark Group (Icon) -->
+  <g id="systac-emblem" transform="translate(10, 8)">
+    <!-- Outer Arc / Crescent -->
+    <path 
+      d="M 68 18 C 36 18, 14 42, 14 74 C 14 96, 28 114, 52 120 C 66 123, 80 119, 90 110 C 95 105, 96 99, 91 95 C 86 91, 80 94, 74 99 C 63 107, 49 107, 39 101 C 28 94, 25 80, 27 68 C 29 55, 38 41, 52 35 C 66 29, 82 32, 92 41 C 97 45, 103 44, 106 39 C 109 34, 107 28, 101 23 C 92 19, 80 18, 68 18 Z" 
+      fill="url(#systacNavy)" 
+    />
+
+    <!-- Diagonal Slice / Traverse Vector -->
+    <path 
+      d="M 22 108 L 102 24 C 105 21, 110 23, 110 27 L 100 45 L 28 116 C 24 119, 19 114, 22 108 Z" 
+      fill="url(#systacNavy)" 
+      opacity="0.95"
+    />
+
+    <!-- Central Mind / Eye Element -->
+    <path 
+      d="M 40 70 C 46 56, 62 48, 78 54 C 88 58, 96 68, 92 78 C 86 92, 70 100, 54 94 C 44 90, 36 80, 40 70 Z" 
+      fill="none" 
+      stroke="url(#systacNavy)" 
+      stroke-width="5" 
+      stroke-linejoin="round"
+    />
+
+    <!-- Neural Nodes & Synaptic Bridge Inside -->
+    <circle cx="56" cy="74" r="5" fill="#19375b" />
+    <circle cx="76" cy="68" r="5" fill="#556b2f" />
+    <line x1="56" y1="74" x2="76" y2="68" stroke="#556b2f" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography Group -->
+  <g id="systac-text" transform="translate(145, 0)">
+    <!-- SYSTAC MIND -->
+    <text 
+      x="0" 
+      y="66" 
+      font-family="'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+      font-size="44" 
+      font-weight="800" 
+      letter-spacing="4.5" 
+      fill="#132a48"
+    >
+      SYSTAC MIND
+    </text>
+
+    <!-- CONSULTANTS -->
+    <text 
+      x="2" 
+      y="104" 
+      font-family="'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+      font-size="25" 
+      font-weight="700" 
+      letter-spacing="10" 
+      fill="#5b7235"
+    >
+      CONSULTANTS
+    </text>
+  </g>
+</svg>

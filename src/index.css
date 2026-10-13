@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Crisp Daylight & Royal Azure Theme Defaults */
+:root {
+  --theme-bg-main: #f8fafc;
+  --theme-hero-bg: #101e38;
+  --theme-header-bg: #101e38;
+  --theme-card-bg: #ffffff;
+  --theme-accent: #2563eb;
+  --theme-accent-light: #eff6ff;
+  --theme-border: #e2e8f0;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
